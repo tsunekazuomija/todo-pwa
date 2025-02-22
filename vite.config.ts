@@ -8,7 +8,7 @@ export default defineConfig({
   base: './',
   plugins: [react(), VitePWA({
     manifest: {
-      id: '/todo-pwa/',
+      id: 'https://github.com/tsunekazuomija/todo-pwa',
       name: 'Todo App (PWA)',
       short_name: 'Todo',
       description: 'Todo Progressive Web App',
