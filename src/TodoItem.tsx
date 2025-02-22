@@ -32,7 +32,7 @@ const ButtonContainer = styled("div")(({ theme }) => ({
   justifyContent: "space-between",
 }));
 
-const Button = styled("button")(({ theme }) => ({
+const Button = styled("button")(() => ({
   display: "flex",
   flexDirection: "row",
   justifyContent: "center",
